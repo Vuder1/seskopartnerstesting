@@ -1,0 +1,13 @@
+node_modules
+dist
+.env
+.env.local
+server/_secure/config.php
+dist-demo
+
+# Real backend source and local-only reference material stay out of the public repo
+/server/
+/public/api/
+/_asas-reference/
+.claude/
+/public/.htaccess
