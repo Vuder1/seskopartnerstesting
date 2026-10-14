@@ -2,6 +2,8 @@
 
 A sandbox copy of the sesko-partners portal (`../sesko-partners-preview`) re-skinned with the
 design of the ASAŞ "Window Exchange Hub" demo (https://veronikavanivska.github.io/asas/).
+**Live preview:** https://vuder1.github.io/seskopartnerstesting/ (demo data - use the "Use" buttons on the login page)
+
 Functionality, routes, roles and API contracts are the same as the real portal; only the
 look and the page layouts changed. Nothing here is deployed anywhere.
 
