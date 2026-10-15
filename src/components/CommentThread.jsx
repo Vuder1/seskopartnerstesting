@@ -84,7 +84,7 @@ export default function CommentThread({ stageId, substageId, commentCount }) {
       </button>
 
       {open && (
-        <div className="mt-2 space-y-3 rounded-md border border-line bg-white p-3">
+        <div className="mt-2 space-y-3 rounded-md border border-line bg-surface-soft p-3">
           {loading ? (
             <p className="text-xs text-navy-900/50">Loading…</p>
           ) : comments.length === 0 ? (

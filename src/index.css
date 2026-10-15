@@ -8,7 +8,7 @@
   --navy: #1f3a5f;
   --navy-2: #294f7d;
   --red: #d72638;
-  --line: #e1e7ed;
+  --line: #d7dfe8;
 }
 
 html {
@@ -18,7 +18,7 @@ html {
 body {
   font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
   color: #182332;
-  background: #f5f7fa;
+  background: #e4eaf1;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -46,7 +46,7 @@ body {
 
 @layer components {
   .panel {
-    @apply rounded-panel border border-line bg-white/[0.98] shadow-panel;
+    @apply rounded-panel border border-line bg-white shadow-panel;
   }
   .eyebrow {
     @apply text-[10px] font-extrabold uppercase tracking-[0.14em] text-muted-2;
@@ -88,7 +88,7 @@ body {
     @apply grid h-10 w-10 flex-none place-items-center rounded-[10px] bg-navy-soft text-navy;
   }
   .list-row {
-    @apply flex items-center gap-3 rounded-xl border border-line bg-white px-4 py-3 transition-colors hover:border-navy/25;
+    @apply flex items-center gap-3 rounded-xl border border-line bg-surface-soft px-4 py-3 transition-colors hover:border-navy/25 hover:bg-white;
   }
   .nav-item {
     @apply flex w-full items-center gap-3 rounded-[10px] px-3 py-2.5 text-left text-[13px] font-semibold text-muted transition-colors hover:bg-navy-soft hover:text-navy;

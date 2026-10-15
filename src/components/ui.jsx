@@ -29,7 +29,7 @@ export function StagePill({ status }) {
 export function Tabs({ items, value, onChange, className = '' }) {
   return (
     <div
-      className={`inline-grid auto-cols-fr grid-flow-col gap-1 rounded-[11px] border border-line bg-[#f1f4f7] p-1 ${className}`}
+      className={`inline-grid auto-cols-fr grid-flow-col gap-1 rounded-[11px] border border-line bg-[#d3dce7] p-1 ${className}`}
       role="tablist"
     >
       {items.map((item) => (

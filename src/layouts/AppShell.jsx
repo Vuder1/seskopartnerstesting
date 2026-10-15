@@ -13,7 +13,7 @@ function initials(name = '') {
 export function LanguageSwitch({ className = '' }) {
   const { locale, setLocale } = useLocale()
   return (
-    <div className={`inline-grid grid-flow-col gap-0.5 rounded-[10px] border border-line bg-[#f1f4f7] p-0.5 ${className}`} role="group" aria-label="Language">
+    <div className={`inline-grid grid-flow-col gap-0.5 rounded-[10px] border border-line bg-[#d3dce7] p-0.5 ${className}`} role="group" aria-label="Language">
       {['en', 'pl'].map((code) => (
         <button
           key={code}

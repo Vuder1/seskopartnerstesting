@@ -58,7 +58,7 @@ export default function PinnedFiles({ projectId, stageId, substageId, files, csr
       {files.length > 0 && (
         <ul className="space-y-1.5">
           {files.map((f) => (
-            <li key={f.id} className="flex items-center justify-between gap-2 rounded-md border border-line bg-white px-3 py-2 text-sm">
+            <li key={f.id} className="flex items-center justify-between gap-2 rounded-md border border-line bg-surface-soft px-3 py-2 text-sm">
               <a onClick={blockInDemo} href={`/api/project_download.php?id=${f.id}`} className="flex-1 truncate font-medium text-navy-2 hover:underline">
                 {f.original_filename}
               </a>
